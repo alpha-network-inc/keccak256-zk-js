@@ -1,0 +1,4 @@
+node_modules/
+index.tsx
+utils.ts
+zk/circuit_final.zkey

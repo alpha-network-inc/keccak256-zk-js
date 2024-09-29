@@ -1,7 +1,7 @@
 import { groth16 } from 'snarkjs';
 
 import vKey from './zk/verification_key.json';
-import { bitsToBytes, bytesToBits, bytesToHex, bytesToUtf8, utf8ToBits, utf8ToBytes } from './utils';
+import { bitsToBytes, bytesToBits, bytesToHex, bytesToUtf8, utf8ToBits } from './utils';
 
 const MAX_DATA_BYTES_LEN = 768;
 

@@ -1,12 +1,13 @@
 {
   "name": "@alpha-network/keccak256-zk",
   "version": "0.0.1",
-  "description": "The JavaScript SDK designed for verifying data existence using zero-knowledge proofs",
+  "description": "The JavaScript SDK designed for verifying data existence using zero-knowledge proofs (ZKP) based on the Keccak256 hashing algorithm.",
   "main": "lib/index.js",
   "author": "regison@alphaos.net",
   "license": "ISC",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "node bin/postinstall"
   },
   "dependencies": {
     "snarkjs": "^0.7.4"
