@@ -1,0 +1,20 @@
+{
+  "name": "@alpha-network/keccak256-zk",
+  "version": "0.0.1",
+  "description": "The JavaScript SDK designed for verifying data existence using zero-knowledge proofs",
+  "main": "lib/index.js",
+  "author": "regison@alphaos.net",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "snarkjs": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/snarkjs": "^0.7.8",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.2"
+  }
+}
